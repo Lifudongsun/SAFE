@@ -1,0 +1,90 @@
+.index-banner {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.slider-main,
+.slider-panel {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-main {
+    position: relative;
+}
+
+.slider-panel:nth-child(1) {
+    background: url("../images/index1.png");
+    background-size: 100% 100%;
+}
+
+.slider-panel:nth-child(1)>.ff {
+    font-size: 55px;
+    color: #fff;
+    position: absolute;
+    top: 271px;
+    left: 360px;
+}
+
+.slider-panel:nth-child(1)>.ft {
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 360px;
+    left: 360px;
+}
+
+.slider-panel:nth-child(2) {
+    background: url("../images/index2.png");
+    background-size: 100% 100%;
+}
+
+.slider-panel:nth-child(2)>.ff {
+    font-size: 55px;
+    color: #fff;
+    position: absolute;
+    top: 271px;
+    left: 360px;
+}
+
+.slider-panel:nth-child(2)>.ft {
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 360px;
+    left: 360px;
+}
+
+.slider-panel:nth-child(3) {
+    background: url("../images/index3.png");
+    background-size: 100% 100%;
+}
+
+.slider-panel:nth-child(3)>.ff {
+    font-size: 55px;
+    color: #fff;
+    position: absolute;
+    top: 271px;
+    left: 360px;
+}
+
+.slider-panel:nth-child(3)>.ft {
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    top: 360px;
+    left: 360px;
+}
+
+.erweima {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 50px;
+    bottom: 50px;
+    background: url("../images/erweima.jpg");
+    background-size: 100%;
+}
